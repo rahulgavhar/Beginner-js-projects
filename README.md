@@ -1,2 +1,2 @@
-# These are Jvascript Projects for Beginners
+# These are Javascript Projects for Beginners
 You can Copy the Code and Use it for your Knowledge.
