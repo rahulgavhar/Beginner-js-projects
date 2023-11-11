@@ -8,14 +8,12 @@ function validateInput(num2){
             return true;
         }else{
             console.log("Please enter a number from 1-100.\n");
-            ii-=1;
             return false;
         }
-    
+
     }
     else{
         console.log("Please enter a number.\n");
-        ii-=1;
         return false;
     }
 }
@@ -31,11 +29,11 @@ while (num1!=num2){
     }
     ii++;
     if (num1>num2){
-        console.log("The number is greater than ",num2);
+        console.log("The number is greater than ",num2,"\n");
     }
     else{
-        console.log("The number is smaller than ",num2);
+        console.log("The number is smaller than ",num2,"\n");
     }
-    
+
 }
 console.log("You have guessed the correct number in",ii,"guesses.");
